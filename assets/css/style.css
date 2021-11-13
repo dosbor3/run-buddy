@@ -1,0 +1,47 @@
+/*  Removing bwser-enforced styles applied to the margin and padding properties of every element, setting them 0 px 
+    the * is known as a universal selector
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* more on this crazy alphanumerical value in a minue */
+    color: #39a6b2;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0px;
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color:#fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0; 
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+
+}

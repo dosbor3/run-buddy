@@ -52,20 +52,22 @@ header nav ul li a {
 }
 
 footer {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }

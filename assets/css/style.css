@@ -144,14 +144,25 @@ div h3 {
 }
 /* HERO SYTLES END */
 
-.intro {
-    text-align:center;
+/* what-we-do SYTLES START */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
 }
+/* what-we-do SYTLES END */
 
 .section-title {
     font-size: 55px;
     color: #024e76;    
-    border-bottom: 3px solid;    
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50;    
 }
 
 .primary-border {
@@ -162,49 +173,29 @@ div h3 {
     border-color:#39a6b2;
 }
 
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-}
 
-.steps {
-    text-align: center;
+/* what-you-do SYTLES START */
+.steps {    
     background: #fce138;
 }
 
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;    
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
 }
 
-.steps p {
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
-
-.steps span {
-    font-size: 38px;
+.step-text h4 {
+    font-size: 26px;
+    line-height:1.5;
+    color: #024e76
 }
+/* what-you-do SYTLES END */
 
 /* MEET THE TRAINER STYLES START */
-.trainers {
-    text-align: center;
-}
-
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -255,8 +246,7 @@ div h3 {
 
 /* REACH OUT STYLES START */
 .contact {
-    background-color: #024e76;
-    text-align: center;
+    background-color: #024e76;   
 }
 .contact h2 {
     color:#fce138
@@ -289,14 +279,6 @@ div h3 {
     color:#fce138;
 }
 /* REACH OUT STYLES END */
-
-/* .section-title STYLES START */
-.section-title {
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50;
-}
 
 
 
